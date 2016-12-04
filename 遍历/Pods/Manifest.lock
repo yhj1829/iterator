@@ -1,0 +1,22 @@
+PODS:
+  - XCKit (1.0.1)
+
+DEPENDENCIES:
+  - XCKit (from `https://git.coding.net/LXChun/XCKit.git`, tag `1.0.1`)
+
+EXTERNAL SOURCES:
+  XCKit:
+    :git: https://git.coding.net/LXChun/XCKit.git
+    :tag: 1.0.1
+
+CHECKOUT OPTIONS:
+  XCKit:
+    :git: https://git.coding.net/LXChun/XCKit.git
+    :tag: 1.0.1
+
+SPEC CHECKSUMS:
+  XCKit: 207f7b1c26b6821eb6c120e38058fb754f75a984
+
+PODFILE CHECKSUM: 8cdedc08b9f18423e689c19539805e89d2b16b0c
+
+COCOAPODS: 1.1.1
