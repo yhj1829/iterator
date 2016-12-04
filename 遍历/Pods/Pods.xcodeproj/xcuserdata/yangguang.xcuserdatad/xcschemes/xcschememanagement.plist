@@ -4,29 +4,13 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-遍历.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>XCKit.xcscheme</key>
+		<key>Pods-&#36941;&#21382;.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>5DA7E46418B2CDDE83E49C1EC1796C96</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>854157A0F49E6DA20884A7BF3784D757</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

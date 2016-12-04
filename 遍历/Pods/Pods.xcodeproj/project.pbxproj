@@ -7,160 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C0C02D421576FFB763F85F53EBC022C /* UIDevice+XCDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFF5E21820030DB951C682D012A4E75 /* UIDevice+XCDevice.m */; };
-		274572D2603951ED568AC48A064454F9 /* UITableView+XCTableview.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBE478CB249A0DCEFB7AB6282C1C130 /* UITableView+XCTableview.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C3E9E4DC1A08DB7F528936BC3204193 /* NSString+XCString.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C217A89B622222B80FD669D9568BD7 /* NSString+XCString.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2DA33CDA4F9CBE2158E44875781BACA5 /* UIColor+XCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 354D28996662D399C4353A03B44FA039 /* UIColor+XCColor.m */; };
-		2F2E36F4508B8DA2ACA5CBFE7407AAB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
-		37728479CFB66255246453B7A70D66C8 /* UIControl+XCUIControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 51A0EB20EB41F3FD24A366D6ACE0E574 /* UIControl+XCUIControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		437DD1A94994C7CF4B81F595073D8BE0 /* NSDate+XCDate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4A6D054F1D6323ABF05F51860045EA /* NSDate+XCDate.m */; };
-		473FF4DAA01D9AB8D971F72F736ECD6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		50C975E6A0C314863AA9C797335DC0CF /* UIDevice+XCDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 440D3E4E9915682FA0B691D7E0D0D207 /* UIDevice+XCDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5671782714926B5A5C36A339323FD21D /* NSString+XCString.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A54A909E30DD0E1E3BFF18162E6A91 /* NSString+XCString.m */; };
-		637AEFA1E4C3F208A4FD30249C98076A /* UINavigationBar+XCBackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6823F7A444B283FA38B933E4DEBDB962 /* UINavigationBar+XCBackgroundColor.m */; };
-		66E67DC373B20C95A7FF37D7AB9111EF /* UINavigationBar+XCBackgroundColor.h in Headers */ = {isa = PBXBuildFile; fileRef = B469D4DC1999520B08062B54325DB96D /* UINavigationBar+XCBackgroundColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A301BFB9FB92165F9A6B20069BCA535 /* Pods-遍历-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 727B1078A6B3BF7BEE1DF654D4BD01E1 /* Pods-遍历-dummy.m */; };
-		89A1705CA0668E9ADA6C5AAD5C247102 /* UIView+XCBadgeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F3470728AC3C3789FEDE55F9F83AC /* UIView+XCBadgeValue.m */; };
-		8AD4768A9DA045A87190FAA0CB1F34C6 /* XCLog.h in Headers */ = {isa = PBXBuildFile; fileRef = A6DA7822BF60F536A2815EF8B433AA11 /* XCLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A266DE9F933899152F4F91987C870A66 /* XCLog.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AB2808478564E8B1CF99F0B3AAA7A0 /* XCLog.m */; };
-		A9D85B6C641D86E0E72D0807A5931306 /* UIView+XCBadgeValue.h in Headers */ = {isa = PBXBuildFile; fileRef = E63DFF8DE3A054E716B3CBB9A6C903C9 /* UIView+XCBadgeValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA05B0CD73A8FD228793CDA0D684FD03 /* XCKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F17E14C1EB6402C04AEAC22E60FE8AC9 /* XCKit-dummy.m */; };
-		BDF5C4156117C8CB512CDF526C0E60AC /* UITableView+XCTableview.m in Sources */ = {isa = PBXBuildFile; fileRef = A86F61AE0E5F4AFFE6521C451D21FE3E /* UITableView+XCTableview.m */; };
-		DDF95A39C8838B9DF7298DE2DD441897 /* UIColor+XCColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEAF7D9B6CFC88762A58A991B0AF56C /* UIColor+XCColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E62322B97490A2113008D566CE135111 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		F9E5D0AE7B6FFDDBA87FAAEFF00FE2BA /* UIControl+XCUIControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FE91FFD4407B38108F5CEEEA83A026 /* UIControl+XCUIControl.m */; };
-		FD73F26A32590BD6AD52B431C1086A4A /* NSDate+XCDate.h in Headers */ = {isa = PBXBuildFile; fileRef = EDCC3354D5225EA889B6BCE763B06D99 /* NSDate+XCDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		439FD4582C49DAD63A5EE11746BAA0C3 /* Pods-遍历-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 727B1078A6B3BF7BEE1DF654D4BD01E1 /* Pods-遍历-dummy.m */; };
+		70C6B9FBEDF00994FC1A790727016ED2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		1775B6563B16AFA7CB826033BCF41B23 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5DA7E46418B2CDDE83E49C1EC1796C96;
-			remoteInfo = XCKit;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		02436BC6E746C6135E8566DD46BB10CB /* libPods-遍历.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-遍历.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C7F3470728AC3C3789FEDE55F9F83AC /* UIView+XCBadgeValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+XCBadgeValue.m"; path = "XCKit/UIView+XCBadgeValue.m"; sourceTree = "<group>"; };
 		2117FE4BAE41C7678E807EFC771A825D /* Pods-遍历-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-遍历-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2734E08A0A4BC926A5311E18884330FB /* XCKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCKit.xcconfig; sourceTree = "<group>"; };
-		354D28996662D399C4353A03B44FA039 /* UIColor+XCColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+XCColor.m"; path = "XCKit/UIColor+XCColor.m"; sourceTree = "<group>"; };
-		440D3E4E9915682FA0B691D7E0D0D207 /* UIDevice+XCDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+XCDevice.h"; path = "XCKit/UIDevice+XCDevice.h"; sourceTree = "<group>"; };
 		44998427055D0FBDAA7EE224B6FDABB2 /* Pods-遍历-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-遍历-acknowledgements.plist"; sourceTree = "<group>"; };
-		4DCD3F42548249D6CDD7B7DDC16668CD /* XCKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCKit-prefix.pch"; sourceTree = "<group>"; };
-		51A0EB20EB41F3FD24A366D6ACE0E574 /* UIControl+XCUIControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+XCUIControl.h"; path = "XCKit/UIControl+XCUIControl.h"; sourceTree = "<group>"; };
-		563C809AB020077CFCD7B1867B15EC0E /* libXCKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXCKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C5152CC2BA00D54F24192818F689BC6 /* Pods-遍历.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-遍历.debug.xcconfig"; sourceTree = "<group>"; };
-		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6823F7A444B283FA38B933E4DEBDB962 /* UINavigationBar+XCBackgroundColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+XCBackgroundColor.m"; path = "XCKit/UINavigationBar+XCBackgroundColor.m"; sourceTree = "<group>"; };
+		6E382ECCEEA51B88485B08EA08FF5337 /* libPods-遍历.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-遍历.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		727B1078A6B3BF7BEE1DF654D4BD01E1 /* Pods-遍历-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-遍历-dummy.m"; sourceTree = "<group>"; };
-		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8FFF5E21820030DB951C682D012A4E75 /* UIDevice+XCDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+XCDevice.m"; path = "XCKit/UIDevice+XCDevice.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9BBE478CB249A0DCEFB7AB6282C1C130 /* UITableView+XCTableview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+XCTableview.h"; path = "XCKit/UITableView+XCTableview.h"; sourceTree = "<group>"; };
-		9CEAF7D9B6CFC88762A58A991B0AF56C /* UIColor+XCColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+XCColor.h"; path = "XCKit/UIColor+XCColor.h"; sourceTree = "<group>"; };
-		A6DA7822BF60F536A2815EF8B433AA11 /* XCLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCLog.h; path = XCKit/XCLog.h; sourceTree = "<group>"; };
-		A86F61AE0E5F4AFFE6521C451D21FE3E /* UITableView+XCTableview.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+XCTableview.m"; path = "XCKit/UITableView+XCTableview.m"; sourceTree = "<group>"; };
-		B469D4DC1999520B08062B54325DB96D /* UINavigationBar+XCBackgroundColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+XCBackgroundColor.h"; path = "XCKit/UINavigationBar+XCBackgroundColor.h"; sourceTree = "<group>"; };
-		B4FE91FFD4407B38108F5CEEEA83A026 /* UIControl+XCUIControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+XCUIControl.m"; path = "XCKit/UIControl+XCUIControl.m"; sourceTree = "<group>"; };
-		B7A54A909E30DD0E1E3BFF18162E6A91 /* NSString+XCString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+XCString.m"; path = "XCKit/NSString+XCString.m"; sourceTree = "<group>"; };
-		BD4A6D054F1D6323ABF05F51860045EA /* NSDate+XCDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+XCDate.m"; path = "XCKit/NSDate+XCDate.m"; sourceTree = "<group>"; };
-		C5AB2808478564E8B1CF99F0B3AAA7A0 /* XCLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCLog.m; path = XCKit/XCLog.m; sourceTree = "<group>"; };
-		D1C217A89B622222B80FD669D9568BD7 /* NSString+XCString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+XCString.h"; path = "XCKit/NSString+XCString.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DC7D787F9053BDE6621817F2D31CAB6A /* Pods-遍历.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-遍历.release.xcconfig"; sourceTree = "<group>"; };
-		E63DFF8DE3A054E716B3CBB9A6C903C9 /* UIView+XCBadgeValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+XCBadgeValue.h"; path = "XCKit/UIView+XCBadgeValue.h"; sourceTree = "<group>"; };
 		EB746EC8EF1A64CA4213B5F776C283D2 /* Pods-遍历-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-遍历-frameworks.sh"; sourceTree = "<group>"; };
-		EDCC3354D5225EA889B6BCE763B06D99 /* NSDate+XCDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+XCDate.h"; path = "XCKit/NSDate+XCDate.h"; sourceTree = "<group>"; };
-		F17E14C1EB6402C04AEAC22E60FE8AC9 /* XCKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCKit-dummy.m"; sourceTree = "<group>"; };
 		F2FC8EB471DA88D06C2E5D6F0316064D /* Pods-遍历-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-遍历-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D2FD2018772A55181B3D0B08FB9B556A /* Frameworks */ = {
+		B1BA70054F21FA59779CA8848EB94597 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				473FF4DAA01D9AB8D971F72F736ECD6E /* Foundation.framework in Frameworks */,
-				2F2E36F4508B8DA2ACA5CBFE7407AAB6 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D75ABDB014F4AE3AACA623BAAE26125A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E62322B97490A2113008D566CE135111 /* Foundation.framework in Frameworks */,
+				70C6B9FBEDF00994FC1A790727016ED2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A9E49AC04ED18558CBF86753F8FB839 /* XCKit */ = {
-			isa = PBXGroup;
-			children = (
-				EDCC3354D5225EA889B6BCE763B06D99 /* NSDate+XCDate.h */,
-				BD4A6D054F1D6323ABF05F51860045EA /* NSDate+XCDate.m */,
-				D1C217A89B622222B80FD669D9568BD7 /* NSString+XCString.h */,
-				B7A54A909E30DD0E1E3BFF18162E6A91 /* NSString+XCString.m */,
-				9CEAF7D9B6CFC88762A58A991B0AF56C /* UIColor+XCColor.h */,
-				354D28996662D399C4353A03B44FA039 /* UIColor+XCColor.m */,
-				51A0EB20EB41F3FD24A366D6ACE0E574 /* UIControl+XCUIControl.h */,
-				B4FE91FFD4407B38108F5CEEEA83A026 /* UIControl+XCUIControl.m */,
-				440D3E4E9915682FA0B691D7E0D0D207 /* UIDevice+XCDevice.h */,
-				8FFF5E21820030DB951C682D012A4E75 /* UIDevice+XCDevice.m */,
-				B469D4DC1999520B08062B54325DB96D /* UINavigationBar+XCBackgroundColor.h */,
-				6823F7A444B283FA38B933E4DEBDB962 /* UINavigationBar+XCBackgroundColor.m */,
-				9BBE478CB249A0DCEFB7AB6282C1C130 /* UITableView+XCTableview.h */,
-				A86F61AE0E5F4AFFE6521C451D21FE3E /* UITableView+XCTableview.m */,
-				E63DFF8DE3A054E716B3CBB9A6C903C9 /* UIView+XCBadgeValue.h */,
-				0C7F3470728AC3C3789FEDE55F9F83AC /* UIView+XCBadgeValue.m */,
-				A6DA7822BF60F536A2815EF8B433AA11 /* XCLog.h */,
-				C5AB2808478564E8B1CF99F0B3AAA7A0 /* XCLog.m */,
-				58E24E1EBFDCFF2F7E499796BFAC1271 /* Support Files */,
-			);
-			path = XCKit;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		55AD5D4484A2D9430C691FD7084009C6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1A9E49AC04ED18558CBF86753F8FB839 /* XCKit */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		58E24E1EBFDCFF2F7E499796BFAC1271 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2734E08A0A4BC926A5311E18884330FB /* XCKit.xcconfig */,
-				F17E14C1EB6402C04AEAC22E60FE8AC9 /* XCKit-dummy.m */,
-				4DCD3F42548249D6CDD7B7DDC16668CD /* XCKit-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/XCKit";
-			sourceTree = "<group>";
-		};
-		6993637D383077681FB9A877E42C06D2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				02436BC6E746C6135E8566DD46BB10CB /* libPods-遍历.a */,
-				563C809AB020077CFCD7B1867B15EC0E /* libXCKit.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		6B4FEA38B14DF9E32292A81D0D72E81A /* Pods-遍历 */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,24 +51,38 @@
 			path = "Target Support Files/Pods-遍历";
 			sourceTree = "<group>";
 		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				55AD5D4484A2D9430C691FD7084009C6 /* Pods */,
-				6993637D383077681FB9A877E42C06D2 /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B9A243ABDFF8FBB0C600E6C45CEC5B49 /* Products */,
 				E9FF4FB69867F1E99CC8D326A7BEF847 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+		B9A243ABDFF8FBB0C600E6C45CEC5B49 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
-				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+				6E382ECCEEA51B88485B08EA08FF5337 /* libPods-遍历.a */,
 			);
-			name = iOS;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E9FF4FB69867F1E99CC8D326A7BEF847 /* Targets Support Files */ = {
@@ -206,58 +95,21 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		1FBE7C735CE37B2CE9A3287AB196FC9F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FD73F26A32590BD6AD52B431C1086A4A /* NSDate+XCDate.h in Headers */,
-				2C3E9E4DC1A08DB7F528936BC3204193 /* NSString+XCString.h in Headers */,
-				DDF95A39C8838B9DF7298DE2DD441897 /* UIColor+XCColor.h in Headers */,
-				37728479CFB66255246453B7A70D66C8 /* UIControl+XCUIControl.h in Headers */,
-				50C975E6A0C314863AA9C797335DC0CF /* UIDevice+XCDevice.h in Headers */,
-				66E67DC373B20C95A7FF37D7AB9111EF /* UINavigationBar+XCBackgroundColor.h in Headers */,
-				274572D2603951ED568AC48A064454F9 /* UITableView+XCTableview.h in Headers */,
-				A9D85B6C641D86E0E72D0807A5931306 /* UIView+XCBadgeValue.h in Headers */,
-				8AD4768A9DA045A87190FAA0CB1F34C6 /* XCLog.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		5DA7E46418B2CDDE83E49C1EC1796C96 /* XCKit */ = {
+		7614736FAD8717FA260FC14B8D78C993 /* Pods-遍历 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73F35B4DADB51FD88B4E5907982BE988 /* Build configuration list for PBXNativeTarget "XCKit" */;
+			buildConfigurationList = 3B4D8F7C363C3CE1A6EE55D14113C32F /* Build configuration list for PBXNativeTarget "Pods-遍历" */;
 			buildPhases = (
-				B5F53628BBCF5EDBA95EAEB2A8BFCFB0 /* Sources */,
-				D2FD2018772A55181B3D0B08FB9B556A /* Frameworks */,
-				1FBE7C735CE37B2CE9A3287AB196FC9F /* Headers */,
+				FE1694DE6C7378C7320D8B7DB21CF9F3 /* Sources */,
+				B1BA70054F21FA59779CA8848EB94597 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = XCKit;
-			productName = XCKit;
-			productReference = 563C809AB020077CFCD7B1867B15EC0E /* libXCKit.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		854157A0F49E6DA20884A7BF3784D757 /* Pods-遍历 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D825467CCC030F421B9096158BE02E02 /* Build configuration list for PBXNativeTarget "Pods-遍历" */;
-			buildPhases = (
-				0F5A88A5628524F732E497551C188974 /* Sources */,
-				D75ABDB014F4AE3AACA623BAAE26125A /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8A4B3EC0A8D30F582C475D6A54A26923 /* PBXTargetDependency */,
 			);
 			name = "Pods-遍历";
 			productName = "Pods-遍历";
-			productReference = 02436BC6E746C6135E8566DD46BB10CB /* libPods-遍历.a */;
+			productReference = 6E382ECCEEA51B88485B08EA08FF5337 /* libPods-遍历.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -277,78 +129,28 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 6993637D383077681FB9A877E42C06D2 /* Products */;
+			productRefGroup = B9A243ABDFF8FBB0C600E6C45CEC5B49 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				854157A0F49E6DA20884A7BF3784D757 /* Pods-遍历 */,
-				5DA7E46418B2CDDE83E49C1EC1796C96 /* XCKit */,
+				7614736FAD8717FA260FC14B8D78C993 /* Pods-遍历 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0F5A88A5628524F732E497551C188974 /* Sources */ = {
+		FE1694DE6C7378C7320D8B7DB21CF9F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A301BFB9FB92165F9A6B20069BCA535 /* Pods-遍历-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5F53628BBCF5EDBA95EAEB2A8BFCFB0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				437DD1A94994C7CF4B81F595073D8BE0 /* NSDate+XCDate.m in Sources */,
-				5671782714926B5A5C36A339323FD21D /* NSString+XCString.m in Sources */,
-				2DA33CDA4F9CBE2158E44875781BACA5 /* UIColor+XCColor.m in Sources */,
-				F9E5D0AE7B6FFDDBA87FAAEFF00FE2BA /* UIControl+XCUIControl.m in Sources */,
-				0C0C02D421576FFB763F85F53EBC022C /* UIDevice+XCDevice.m in Sources */,
-				637AEFA1E4C3F208A4FD30249C98076A /* UINavigationBar+XCBackgroundColor.m in Sources */,
-				BDF5C4156117C8CB512CDF526C0E60AC /* UITableView+XCTableview.m in Sources */,
-				89A1705CA0668E9ADA6C5AAD5C247102 /* UIView+XCBadgeValue.m in Sources */,
-				BA05B0CD73A8FD228793CDA0D684FD03 /* XCKit-dummy.m in Sources */,
-				A266DE9F933899152F4F91987C870A66 /* XCLog.m in Sources */,
+				439FD4582C49DAD63A5EE11746BAA0C3 /* Pods-遍历-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		8A4B3EC0A8D30F582C475D6A54A26923 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XCKit;
-			target = 5DA7E46418B2CDDE83E49C1EC1796C96 /* XCKit */;
-			targetProxy = 1775B6563B16AFA7CB826033BCF41B23 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		0D35765EE2F63CEF0803AC57B95DD1B6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2734E08A0A4BC926A5311E18884330FB /* XCKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/XCKit/XCKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		88B7A65EF6B6568F6AAAC2107AC9EB7A /* Release */ = {
+		0BA90652D7044F14600D7A4F2BE0CAD1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC7D787F9053BDE6621817F2D31CAB6A /* Pods-遍历.release.xcconfig */;
 			buildSettings = {
@@ -411,29 +213,6 @@
 			};
 			name = Release;
 		};
-		B0012A0468A4DC544A73EC851C561D6F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2734E08A0A4BC926A5311E18884330FB /* XCKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/XCKit/XCKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 		B1B5EB0850F98CB5AECDB015B690777F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -478,7 +257,7 @@
 			};
 			name = Debug;
 		};
-		C3ABBDDA47FDFCBBE9D7D8E1379395B5 /* Debug */ = {
+		D6454AB4D7EDFE4152FA9804B09168F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5C5152CC2BA00D54F24192818F689BC6 /* Pods-遍历.debug.xcconfig */;
 			buildSettings = {
@@ -513,20 +292,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73F35B4DADB51FD88B4E5907982BE988 /* Build configuration list for PBXNativeTarget "XCKit" */ = {
+		3B4D8F7C363C3CE1A6EE55D14113C32F /* Build configuration list for PBXNativeTarget "Pods-遍历" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0012A0468A4DC544A73EC851C561D6F /* Debug */,
-				0D35765EE2F63CEF0803AC57B95DD1B6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D825467CCC030F421B9096158BE02E02 /* Build configuration list for PBXNativeTarget "Pods-遍历" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C3ABBDDA47FDFCBBE9D7D8E1379395B5 /* Debug */,
-				88B7A65EF6B6568F6AAAC2107AC9EB7A /* Release */,
+				D6454AB4D7EDFE4152FA9804B09168F1 /* Debug */,
+				0BA90652D7044F14600D7A4F2BE0CAD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
